@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Realtime Chat</string>
+
+    <!-- Login -->
+    <string name="login_title">Welcome</string>
+    <string name="login_subtitle">Enter your username to continue</string>
+    <string name="username_hint">Username</string>
+    <string name="submit">Submit</string>
+
+    <!-- Chat List -->
+    <string name="new_chat">New Chat</string>
+    <string name="empty_chats_title">No chats yet</string>
+    <string name="empty_chats_subtitle">Start a new conversation by tapping the + button below</string>
+
+    <!-- Chat Detail -->
+    <string name="message_hint">Type a message…</string>
+    <string name="send">Send</string>
+    <string name="retry">Retry</string>
+    <string name="empty_messages_title">No messages</string>
+    <string name="empty_messages_subtitle">Send a message to start the conversation</string>
+    <string name="back">Back</string>
+
+    <!-- Connection States -->
+    <string name="connecting">Connecting…</string>
+    <string name="reconnecting">Reconnecting (%1$d)…</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+
+    <!-- Offline -->
+    <string name="offline_message">You are offline</string>
+    <string name="offline_message_chat">You are offline. Messages will be sent when connected.</string>
+    <string name="queued_messages">%1$d message(s) queued</string>
+
+    <!-- Errors -->
+    <string name="error_connection">Connection error</string>
+    <string name="error_send">Failed to send message</string>
+    <string name="error_network">No internet connection</string>
+</resources>
